@@ -1,0 +1,27 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.tools.build:gradle:3.0.1'
+    compile group: 'org.javassist', name: 'javassist', version: '3.20.0-GA'
+    compile gradleApi()
+    compile localGroovy()
+}
+
+//设置maven deployer
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            //设置插件的GAV参数
+            pom.groupId = 'com.fooww.plugin'
+            pom.artifactId = 'segregate'
+            pom.version = '1.0.0'
+            //文件发布到下面目录
+            repository(url: uri('../repo'))
+        }
+    }
+}

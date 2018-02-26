@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FoowwRouterDemo.iml" filepath="$PROJECT_DIR$/FoowwRouterDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountcomponent/accountcomponent.iml" filepath="$PROJECT_DIR$/accountcomponent/accountcomponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auto-segregate/auto-segregate.iml" filepath="$PROJECT_DIR$/auto-segregate/auto-segregate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-anno-compiler/router-anno-compiler.iml" filepath="$PROJECT_DIR$/router-anno-compiler/router-anno-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/routercomponent/routercomponent.iml" filepath="$PROJECT_DIR$/routercomponent/routercomponent.iml" />
+    </modules>
+  </component>
+</project>
